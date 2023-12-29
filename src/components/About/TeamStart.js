@@ -27,7 +27,7 @@ function TeamStart() {
         </div>
         <div className="row g-5">
           {/* Team Member 1 */}
-          <div className="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+          {/* <div className="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
             <div className="team-item bg-light rounded overflow-hidden">
               <div className="team-img position-relative overflow-hidden">
                 <img
@@ -73,10 +73,20 @@ function TeamStart() {
                 <p className="text-uppercase m-0">Designation 1</p>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Team Member 2 */}
-          <div className="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+          {/* <div className="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+            <div className="team-item bg-light rounded overflow-hidden">
+              <div className="team-img position-relative overflow-hidden">
+                <img
+                  className="img-fluid w-100"
+                  src={image2}
+                  alt="Team Member 2"
+                />
+                <div className="team-social"> */}
+          {/* Team Member 2 */}
+          <div className="col-lg-4 mx-auto wow slideInUp" data-wow-delay="0.6s">
             <div className="team-item bg-light rounded overflow-hidden">
               <div className="team-img position-relative overflow-hidden">
                 <img
@@ -117,15 +127,15 @@ function TeamStart() {
               </div>
               <div className="text-center py-4">
                 <h4 className="" style={{ color: "var(--primary)" }}>
-                  Jane Doe
+                  Abishek
                 </h4>
-                <p className="text-uppercase m-0">Designation 2</p>
+                <p className="text-uppercase m-0">Founder</p>
               </div>
             </div>
           </div>
 
           {/* Team Member 3 */}
-          <div className="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+          {/* <div className="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
             <div className="team-item bg-light rounded overflow-hidden">
               <div className="team-img position-relative overflow-hidden">
                 <img
@@ -170,8 +180,8 @@ function TeamStart() {
                 </h4>
                 <p className="text-uppercase m-0">Designation 3</p>
               </div>
-            </div>
-          </div>
+            </div> 
+          </div>*/}
         </div>
       </div>
     </div>
