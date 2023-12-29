@@ -550,11 +550,15 @@ h6,
     .imageabout{
         height:70% !important;
     }
+    .font{
+    font-size: 25px;
+    }
   
   }
   .imageabout{
     height:100% ;
 }
+
 
 
   

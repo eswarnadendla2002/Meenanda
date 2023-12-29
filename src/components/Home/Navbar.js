@@ -46,11 +46,13 @@ const NavbarHeader = () => {
           href="index.html"
           data-aos={isScrolled ? "fade-down" : ""}
         >
-          <div
+          <h1
+            className="m-0"
             style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
+              color:
+                isScrolled || window.innerWidth <= 992
+                  ? "var(--primary)"
+                  : "#fff",
             }}
           >
             <i
@@ -60,23 +62,10 @@ const NavbarHeader = () => {
                   isScrolled || window.innerWidth <= 992
                     ? "var(--primary)"
                     : "#fff",
-                fontSize: "40px",
               }}
             ></i>
-            <div style={{ columnGap: "10px" }}>
-              <h1
-                className="m-0"
-                style={{
-                  color:
-                    isScrolled || window.innerWidth <= 992
-                      ? "var(--primary)"
-                      : "#fff",
-                }}
-              >
-                MEENANDA
-              </h1>
-            </div>
-          </div>
+            MEENANDA
+          </h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarCollapse">
           <span className="fa fa-bars"></span>
